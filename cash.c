@@ -61,7 +61,7 @@ int main(void)
      if (change == 0) 
      {
          int numberOfCoins = quarters + dimes + nickels + pennies;
-         printf("Your change is %i coins.\n", numberOfCoins);
+         printf("Your change is %i quarters, %i dimes, %i nickels, and %i pennies.\n for a total of %i coins.\n", quarters, dimes, nickels, pennies, numberOfCoins);
          
      }
       
